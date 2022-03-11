@@ -1,3 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+body{
+    min-height: 100vh;
+}
+
+/* HEADER */
+.header{
+    height: 80px;
+    background-color: #042859;
+    font-size: 1.5rem;
+}
+
+.btn-menu{
+    font-size: 1.5rem;
+}
+
+/* ESTILOS A LOS A */
+a,
+a:hover,
+a:link{
+    text-decoration: none;
+    font-weight: 500;
+    color: white;
+    margin: 0;
+
+}
+
+/* NAVBAR */
+.navbar{
+    width: 250px;
+    height: 100vh;
+    position: fixed;
+    margin-left: -300px;
+    background-color: white;
+    transition: 0.4s;
+}
+.nav-item{
+    display: flex;
+    align-items: center;
+    margin-bottom: 2rem;
+    padding-left: 1rem;
+}
+.icon-menu{
+    width: 24px;
+    height: 24px;
+}
+
+.nav-link{
+    font-size: 1.25rem;
+    color: #042859 ;
+    font-weight: 700 ;
+    padding: 0;
+}
+.nav-link:active,
+.nav-link:focus,
+.nav-link:hover{
+    background-color: #ffffff26;
+    
+}
+.active{
+    margin-left: 0;
+}
+
+
+/* FOOTER */
 .footer-bootstrap{
-    background-color: rgb(18, 4, 97);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 40px;
+    background-color: #042859;
+    margin-top: 1rem;
+    height: 80px;
+}
+
+.div-foot{
+    color: white;
+}
+.text-footer{
+    margin:0;
+}
+.footer-icons{
+    width: 35px;
+    margin: 0 10px;
 }

@@ -10,63 +10,98 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="/Css/style.css">
-    <title>DLT Seguros</title>
+    <title>DLT Seguros | ¿Sabías qué...?</title>
 </head>
 <body>
-    <header class="header d-flex align-items-center justify-content-between">
+    <header class="header d-flex align-items-center justify-content-between position-fixed top-0 start-0">
         <button class="btn btn-menu ms-4 text-light" id="menu-btn"><i class="fa-solid fa-bars"></i></button>
-        <a href="#" class="phone me-4"><i class="fa-brands fa-whatsapp "></i> 011 24059537</a>
+        <a href="#" class="phone me-4 text-white"><i class="fa-brands fa-whatsapp "></i> 011 24059537</a>
     </header>
-    <nav class="navbar navbar-expand d-flex flex-column align-items-start" id="sidebar">
+    <nav class="navbar navbar-expand d-flex flex-column bg-white align-items-start position-fixed" id="sidebar">
         <ul class="navbar-nav d-flex flex-column mt-5 w-100">
-            <li class="nav-item w-100">
+            <li class="nav-item w-100 d-flex align-items-center">
                 <img src="/Icons/Home.svg" class="icon-menu" alt="">
                 <a href="#" class="nav-link fw-bold pl-4" >
                     HOME
                 </a>
             </li>
-            <li class="nav-item w-100">
+            <li class="nav-item w-100 d-flex align-items-center">
                 <img src="/Icons/seguros.svg" class="icon-menu" alt="">
                 <a href="#" class="nav-link fw-bold pl-4" >
                     SEGUROS
                 </a>
             </li>
-            <li class="nav-item w-100">
+            <li class="nav-item w-100 d-flex align-items-center">
                 <img src="/Icons/datos-utiles.svg" class="icon-menu" alt="">
                 <a href="#" class="nav-link fw-bold pl-4" >
                     DATOS ÚTILES
                 </a>
             </li>
-            <li class="nav-item w-100">
+            <li class="nav-item w-100 d-flex align-items-center">
                 <img src="/Icons/sabias-que.svg" class="icon-menu" alt="">
                 <a href="#" class="nav-link fw-bold pl-4" >
-                    ¿SABIAS QUÉ...?
+                    ¿SABÍAS QUÉ...?
                 </a>
             </li>
-            <li class="nav-item w-100">
+            <li class="nav-item w-100 d-flex align-items-center">
                 <img src="/Icons/person-bounding-box.svg" class="icon-menu" alt="">
                 <a href="#" class="nav-link fw-bold pl-4" >
                     NOSOTROS
                 </a>
             </li>
-            <li class="nav-item w-100">
+            <li class="nav-item w-100 d-flex align-items-center">
                 <img src="/Icons/email.svg" class="icon-menu" alt="">
                 <a href="#" class="nav-link fw-bold pl-4" >
                     CONTACTO
                 </a>
             </li>
         </ul>
-
     </nav>
+    <main>
+        <h1 class="title text-center mt-4 mb-4 fw-bold">¿SABÍAS QUÉ...?</h1>
+        <div class="container d-flex flex-column">
+            <article>
+                <div class="row d-flex justify-content-center mt-2 mb-2">
+                    <div class="col-7 d-flex flex-column justify-content-center border p-4 bg-white shadow p-3 mb-5 bg-body ">
+                        <h3 class="mx-auto pb-2"> Pregunta 1</h3>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quam voluptatibus nobis labore cumque harum iure quae quis, soluta necessitatibus, cupiditate perspiciatis assumenda ea, sit dolor est minima omnis numquam excepturi.</p>
+                    </div>
+                </div>
+            </article>
+            <article>
+                <div class="row d-flex justify-content-center mt-2 mb-2">
+                    <div class="as col-7 d-flex flex-column justify-content-center border p-4 bg-white shadow p-3 mb-5 bg-body ">
+                        <h3 class="mx-auto pb-2"> Pregunta 2</h3>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quam voluptatibus nobis labore cumque harum iure quae quis, soluta necessitatibus, cupiditate perspiciatis assumenda ea, sit dolor est minima omnis numquam excepturi.</p>
+                    </div>
+                </div>
+            </article>
+        </div>
+    </main>
 
-    <div class="footer-bootstrap">
-        <div class=" div-foot">
-            <h6 class="text-footer">DLT Seguros 2022. Todos los derechos reservados.</h6>
+    <footer class="footer-bootstrap d-flex align-items-center">
+        <div class="container fluid ">
+            <div class="row">
+                <div class="d-flex flex-row justify-content-between">
+                    <div class="div-foot d-flex align-items-center">
+                        <h6 class="text-footer">DLT Seguros 2022. Todos los derechos reservados.</h6>
+                    </div>
+                    <div class=" div-foot">
+                        <a href="" class="ms-2">
+                            <picture>
+                                <img src="/Icons/facebook.svg" alt="facebook-logo" class="footer-icons">
+                            </picture>
+                        </a>
+                        <a href="" class="ms-2">
+                            <picture>
+                                <img src="/Icons/igblanco.svg" class="footer-icons" alt="instagram-logo">
+                            </picture>
+                        </a>
+                    </div>            
+                </div>
+            </div>
         </div>
-        <div class=" div-foot">
-            <img src="/Icons/facebook.svg" alt="" class="footer-icons"><img src="/Icons/igblanco.svg" class="footer-icons" alt="">
-        </div>
-    </div>
+    </footer>
 
     <!-- Script-Bootstrap -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>

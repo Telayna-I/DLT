@@ -68,9 +68,10 @@ a:link{
 
 
 
-/* MAIN */
-.title{
+/* TODOS LOS H1 DE CADA PAGINA */
+.title-pag{
     color: #042859;
+    font-size: 4rem;
 }
 
 
@@ -98,9 +99,6 @@ a:link{
 /* SABIAS QUE  */
 
 /* NOSOTROS */
-.title-nosotros{
-    font-size: 4rem;
-}
 
 .title-card{
     font-size: 3rem;
@@ -111,5 +109,17 @@ a:link{
 }
 
 .nosotros-p-card{
+    color: #042859;
+}
+
+
+/* CONTACTO */
+
+.icon-contact{
+    width: 35px;
+}
+
+.title-card-contact{
+    font-size: 1.2rem;
     color: #042859;
 }

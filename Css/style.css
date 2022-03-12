@@ -8,7 +8,8 @@ body{
     min-height: 100vh;
     background-image: url(../Icons/svg.svg);
     background-repeat: no-repeat;
-    background-size: auto;
+    background-attachment: fixed;
+    background-size: cover;
     padding-top: 80px;
 }
 
@@ -96,3 +97,19 @@ a:link{
 
 /* SABIAS QUE  */
 
+/* NOSOTROS */
+.title-nosotros{
+    font-size: 4rem;
+}
+
+.title-card{
+    font-size: 3rem;
+    color: #042859;
+}
+.img-card{
+    width: 70px;
+}
+
+.nosotros-p-card{
+    color: #042859;
+}

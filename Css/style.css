@@ -40,6 +40,7 @@ a:link{
     height: 100vh;
     margin-left: -300px;
     transition: 0.4s;
+    z-index: 1000;
 }
 .nav-item{
     margin-bottom: 2rem;
@@ -64,6 +65,7 @@ a:link{
 }
 .active{
     margin-left: 0;
+  
 }
 
 

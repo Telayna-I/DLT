@@ -94,6 +94,27 @@ a:link{
     width: 35px;
 }
 
+/*HOME*/
+.carousel-title{
+    font-family: 'Open Sans', sans-serif;
+    font-weight:700;
+    text-align:left;
+    font-size: 3rem;
+    
+    
+}
+
+#carousel-title{
+    font-family: 'Open Sans', sans-serif;
+    font-weight:700;
+    text-align:left;
+    font-size: 3rem;
+    color: #042859;
+   
+}
+.title-line{
+    line-height:10px;
+}
 
 
 

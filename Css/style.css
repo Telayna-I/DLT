@@ -116,7 +116,27 @@ a:link{
     line-height:10px;
 }
 
+/*SEGUROS*/
+.title-seguros{
+    font-family: 'Open Sans', sans-serif !important;
+    font-weight:700 !important;
+    font-size: 4rem !important;
+    text-align:center;
+    color: #042859;
+    padding: 20px;
+}
 
+.card-style{
+width: 30%;
+}
+
+.card-title{
+    font-family: 'Open Sans', sans-serif;
+    font-weight:700;
+    text-align:center;
+    font-size: 1.8rem;
+    color: #042859;
+}
 
 
 /* SABIAS QUE  */

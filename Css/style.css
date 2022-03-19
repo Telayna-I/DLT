@@ -147,6 +147,7 @@ a:link{
     color: #042859;
 }
 
+
 /* SEGUROS */
 .main-seguros{
     margin-bottom: 4rem ;
@@ -238,4 +239,13 @@ a:link{
         margin: 0;
     }
     
+}
+
+/*DATOS UTILES*/
+.p-datos-utiles{
+    font-size: 1.2rem;
+}
+
+.datos-utiles-title{
+    font-size: 2rem;
 }

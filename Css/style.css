@@ -165,8 +165,9 @@ a:link{
 .card{
     justify-content: center;
     align-items: center;
-    width: 300px;
-    height: 220px;
+    width: 18.75rem;
+    height: 13.75rem;
+    margin: auto;
 }
 
 .icon-seguro{

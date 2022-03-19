@@ -4,7 +4,13 @@
     box-sizing: border-box;
     font-family: 'Open Sans', sans-serif;
 }
+
+html{
+    height: 100%;
+}
 body{
+    display: flex;
+    flex-direction: column;
     min-height: 100vh;
     background-image: url(../Icons/svg.svg);
     background-repeat: no-repeat;
@@ -80,6 +86,7 @@ a:link{
 
 /* FOOTER */
 .footer-bootstrap{
+    margin-top: auto;
     background-color: #042859;
     height: 80px;
 }
@@ -102,6 +109,10 @@ a:link{
     font-size: 3rem;
     
     
+}
+
+.main-home{
+    margin: auto;
 }
 
 #carousel-title{
@@ -146,7 +157,6 @@ a:link{
     font-size: 1.2rem;
     color: #042859;
 }
-
 
 /* SEGUROS */
 .main-seguros{

@@ -141,3 +141,11 @@ a:link{
     font-size: 1.2rem;
     color: #042859;
 }
+
+/*DATOS UTILES*/
+.p-datos-utiles{
+    font-size: 1.2rem;
+}
+.datos-utiles-title{
+    font-size: 2rem;
+}
